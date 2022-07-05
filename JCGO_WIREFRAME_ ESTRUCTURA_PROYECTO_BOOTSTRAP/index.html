@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!--Styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>gJuls | Diseño que inspira</title>
+</head>
+<body>
+    <!--header-->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <!--brand-->
+            <a href="#" class="d-flex p-2">
+                <img src="assets/logoGjuls-ico.svg" alt="Logo  - Diseño"/>
+                <img src="assets/logoGjuls-txt.svg" alt="gJuls  - Que inspira"/>
+            </a>
+                <!--btnMenu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!--<span class="navbar-toggler-icon"></span>-->
+                <img src="bootstrap/icons/list.svg" fill="#fff" />
+            </button>
+            <!--MenuCollapse-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li>
+                    <a href="views/portafolio.html">
+                        <img src="assets/ico_journal-bookmark-fill.svg">
+                        <span>Portafolio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="views/servicios.html">
+                        <img src="assets/ico_card-checklist.svg">
+                        <span>Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="views/experiencias.html">
+                        <img src="assets/ico_arrow-through-heart.svg">
+                        <span>Experiencias</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="views/contacto.html">
+                        <img src="assets/ico_envelope-paper.svg">
+                        <span>Contacto</span>
+                    </a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid p-0 pt-4" style="margin-top: 100px;">
+        <section class="">
+            <div id="carouselHome" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <article class="container">
+                    <div class="row">
+                    <div class="col-sm-12 col-md-6 p-md-4">
+                        <div class="ContTextHome border border-dark rounded p-4 shadow bg-dark">
+                        <h2 class="c-orange m-0">Diseño Web</h2>
+                        <p >
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos est odit, dicta excepturi dolor, qui temporibus, eius minus saepe ad corporis nam impedit. Voluptates repellat iure quod placeat praesentium.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="contImg">
+                            <img src="assets/disenioWeb.jpg" class="img-fluid w-100">
+                        </div>
+                    </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="carousel-item">
+                <article class="container">
+                    <div class="row">
+                    <div class="col-sm-12 col-md-6 p-md-4 order-2 order-md-1 ">
+                        <div class="ContTextHome border border-dark rounded p-4 shadow bg-dark">
+                        <h2 class="c-orange m-0">Diseño Gráfico</h2>
+                        <p >
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos est odit, dicta excepturi dolor, qui temporibus, eius minus saepe ad corporis nam impedit. Voluptates repellat iure quod placeat praesentium.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 order-1 order-md-2">
+                        <div class="contImg">
+                            <img src="assets/disenioGrafico.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    </div>
+                </article>
+            </div>
+
+            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHome" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+          <!--Tabla promociones-->
+          <section class="container col-sm-12 col-md-8 mt-100">
+            <article class="text-center px-10">
+                <h1 class="c-orange" >Nuestros paquetes</h1>
+                    <table class="p-2">
+                    <thead>
+                        <tr>
+                            <th class="p-2">Serivicio</th>
+                            <th class="p-2">paquete a</th>
+                            <th class="p-2">paquete b</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-2 bg">Diseño Gráfico</td>
+                            <td class="p-2">x</td>
+                            <td class="p-2 bg">x</td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">Diseño web</td>
+                            <td class="p-2 bg">x</td>
+                            <td class="p-2">x</td>
+                        </tr>
+                        <tr>
+                            <td class="p-2 bg">Diseño ux/ui</td>
+                            <td class="p-2"></td>
+                            <td class="p-2 bg">x</td>
+                        </tr>
+                    </tbody>
+                    </table>
+            </article>
+        </section>
+
+        <!--Contacto-->
+        <section class="SecHrs text-center">
+            <a href="views/contacto.html" class="btnContacta">Contáctanos</a>
+                <div class="contHrs">
+                    <h1 class="textHora text-center">
+                        Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar
+                        Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar| Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar
+                    </h1>
+                </div>
+        </section>
+    </main>
+
+
+
+    <main class="d-none">
+
+        <section>
+            <article class="h-400 bg-light bg-white dFlex d-sm-block">
+                <div class="w-50 w-sm-100 p-4">
+                    <h2 class="c-orange m-0">Diseño Web</h2>
+                    <p >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos est odit, dicta excepturi dolor, qui temporibus, eius minus saepe ad corporis nam impedit. Voluptates repellat iure quod placeat praesentium.
+                    </p>
+                </div>
+                <div class="w-50 w-sm-100">
+                    <div class="contImg">
+                        <img src="assets/disenio_ux_ui.jpg" class="w-100">
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article class="h-400 bg-light bg-white dFlex d-sm-block flex-direction">
+                <div class="w-50 w-sm-100 p-4">
+                    <h2 class="c-orange m-0">Diseño Web</h2>
+                    <p >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos est odit, dicta excepturi dolor, qui temporibus, eius minus saepe ad corporis nam impedit. Voluptates repellat iure quod placeat praesentium.
+                    </p>
+                </div>
+                <div class="w-50 w-sm-100">
+                    <div class="contImg">
+                        <img src="assets/disenio_ux_ui.jpg" class="w-100">
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!--Disenio web-->
+        <section class="d-none">
+            <article class="inlineFlex">
+                <div class="contImg">
+                    <img src="assets/disenioWeb.jpg">
+                </div>
+                <div class="p-2">
+                    <h2 class="c-orange">Diseño Web</h2>
+                    <br>
+                    <p >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos est odit, dicta excepturi dolor, qui temporibus, eius minus saepe ad corporis nam impedit. Voluptates repellat iure quod placeat praesentium.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <!--Disenio Ux/Ui-->
+        <section class="d-none">
+            <article class="inlineFlex flex-direction">
+                <div class="contImg">
+                    <img src="assets/disenio_ux_ui.jpg">
+                </div>
+                <div class="p-2">
+                    <h2 class="c-orange">Diseño Ux/Ui</h2>
+                    <br>
+                    <p >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos est odit, dicta excepturi dolor, qui temporibus, eius minus saepe ad corporis nam impedit. Voluptates repellat iure quod placeat praesentium.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <!--Disenio grafico-->
+        <section class="d-none">
+            <article class="inlineFlex">
+                <div class="contImg">
+                    <img src="assets/disenioGrafico.jpg">
+                </div>
+                <div class="p-2">
+                <h2 class="c-orange">Diseño Gráfico</h2>
+                <br>
+                <p >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos est odit, dicta excepturi dolor, qui temporibus, eius minus saepe ad corporis nam impedit. Voluptates repellat iure quod placeat praesentium.
+                </p>
+            </div>
+            
+            </article>
+        </section>
+
+
+
+
+        <!--Tabla promociones-->
+        <section>
+            <article class="text-center px-10">
+                <h1 class="c-orange" >Nuestros paquetes</h1>
+                    <table class="p-2">
+                    <thead>
+                        <tr>
+                            <th class="p-1">Serivicio</th>
+                            <th class="p-1">paquete a</th>
+                            <th class="p-1">paquete b</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-1 bg">Diseño Gráfico</td>
+                            <td class="p-1">x</td>
+                            <td class="p-1 bg">x</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1">Diseño web</td>
+                            <td class="p-1 bg">x</td>
+                            <td class="p-1">x</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 bg">Diseño ux/ui</td>
+                            <td class="p-1"></td>
+                            <td class="p-1 bg">x</td>
+                        </tr>
+                    </tbody>
+                    </table>
+            </article>
+        </section>
+        <!--Contacto-->
+        <section class="text-center pt-10 pb-10">
+            <a href="views/contacto.html" class="btnContacta">Contáctanos</a>
+                <div class="contHrs">
+                    <h1 class="textHora text-center">
+                        Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar
+                        Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar| Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar
+                    </h1>
+                </div>
+        </section>
+    </main>
+
+    
+     <!--footer-->
+     <footer class="container mt-4">
+        <div class="row border-top border-secondary mt-4">
+        <!--Mail-->
+        <section class="p-2 col-xs-12 col-md-4">
+            <div>
+                <h4>¿Preguntas sobre negocios?</h4>
+                
+                <p class="c-orange">mail@mail.com</p>
+            </div>
+        </section>
+        <!--Telefono-->
+        <section class="p-2 col-xs-12 col-md-4">
+            <div>
+                <h4>¿Algo más personal?</h4>
+                
+                <p class="c-orange">00 0000 0000</p>
+            </div>
+        </section>
+        <!--redesSociales-->
+        <section class="p-2 col-xs-12 col-md-4">
+            <div>
+                <h4>Tenemos mucho que compartir</h4>
+            </div>
+                <div class="d-flex">
+                    <div class="p-2">
+                        <a href="#">
+                            <img src="assets/ico_facebook.svg" alt="Facebook">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <a href="#">
+                            <img src="assets/ico_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <a href="#">
+                            <img src="assets/ico_youtube.svg" alt="Youtube">
+                        </a>
+                    </div>
+                </div>
+        </section>
+        </div>
+        <section class="text-center mt-2 border-secondary border-top p-4" >
+            <span class="text-secondary ">2022 - Todos los Derechos Reservados</span>  
+        </section>
+    </footer>
+    
+
+    <!--JsBootstrap-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
