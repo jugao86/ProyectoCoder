@@ -228,7 +228,143 @@ table td{
     padding-right: 1em;
 }
 
-@media (max-width: 920px) {
+
+
+
+
+
+  /**/
+
+  .pt-10{
+    padding-top: 10em;
+  }
+
+  .hImgPages{
+    height: 55vh;
+    overflow: hidden;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #000, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+
+
+  .sectiones h1{
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 3rem;
+  }
+
+
+fieldset{
+    border:solid 1px rgba(0,0,0,.15);
+    padding: 2em;
+    margin-top: 2em;
+}
+
+fieldset input, select{
+    height: 42px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,.15);
+    border: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: #fff;
+    outline: none;
+    font-size: 14pt;
+}
+
+.checkRadio input{
+    width: 50px;
+    height: 28px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+textarea{
+    width: 100%;
+    max-width: 98%;
+    background-color: rgba(0,0,0,.25);
+    padding: 10px;
+    color: #fff;
+    font-size: 14pt;
+    border:solid 1px rgba(0,0,0,.25)
+}
+
+
+#btnSend{
+    border:none;
+    padding: 3em;
+    width: 100%;
+    background-color: #ff5900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    transition: all .3s;
+}
+
+#btnSend:hover{
+    background-color: #c74200;
+    transition: all .3s;
+}
+
+#btnCancel{
+    border:none;
+    padding: 3em;
+    width: 100%;
+    background-color: #1F2023;
+    color: #ff5900;
+    border:solid 1px #ff5900;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+#btnCancel:hover{
+    background-color: rgba(0,0,0,.25);
+    transition: all .3s;
+}
+
+
+.hoverMarcas{
+    transition: all .3s;
+    transform: scale(1);
+    background-color: rgba(0,0,0,0);
+}
+.hoverMarcas:hover{
+    transition: all .3s;
+    transform: scale(.75);
+    background-color: rgba(0,0,0,.25);
+}
+.imgCards{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.c-dark{color:#000000}
+
+
+.card{
+    border:solid 1px rgb(255,255,255,.85);
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.card img{
+    width: 120%;
+    transform: translate(-5%);
+    transition: all .3s;
+}
+
+.card img:hover{
+    width: 110%;
+}
+
+
+.inlineFlex{display: inline-flex;}
+.space-between{justify-content: space-between;}
+/*Medias*/
+  @media (max-width: 920px) {
     .ContTextHome{
         margin-left:0px;
         width: 100%;
@@ -241,5 +377,24 @@ table td{
         margin-left: 0px;
         
     }
-    
+
+    .hImgPages{
+        height: 30vh;
+        overflow: hidden;
+        -webkit-box-shadow: inset -1px 3px 8px 5px #000, 5px 5px 15px 5px rgba(0,0,0,0); 
+        box-shadow: inset -1px 3px 8px 5px #000, 5px 5px 15px 5px rgba(0,0,0,0);
+      }
+      .pt-10{
+        padding-top: 7em;
+      }
+
+      .sectiones h1 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1rem;
+    }
+
+    .contImg{
+        height:100%;
+    }
 }

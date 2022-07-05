@@ -4,68 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+     <!--Bootstrap-->
+     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    
     <!--Styles-->
     <link rel="stylesheet" href="../css/style.css">
     <title>gJuls | Servicios</title>
 </head>
 <body>
-    <!--nav-->
-    <nav>
-        <div class="w-25 brand">
-            <a href="../index.html">
-                <img src="../assets/logoGjuls-ico.svg" alt="Logo gJuls  - Diseño que inspira"/>
-                <img src="../assets/logoGjuls-txt.svg" alt="Logo gJuls  - Diseño que inspira"/>
+     <!--header-->
+     <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <!--brand-->
+            <a href="../index.html" class="d-flex p-2">
+                <img src="../assets/logoGjuls-ico.svg" alt="Logo  - Diseño"/>
+                <img src="../assets/logoGjuls-txt.svg" alt="gJuls  - Que inspira"/>
             </a>
-        </div>
-        <div class="w-75 nav stiky">
-            <ul>
+                <!--btnMenu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!--<span class="navbar-toggler-icon"></span>-->
+                <img src="../bootstrap/icons/list.svg" fill="#fff" />
+            </button>
+            <!--MenuCollapse-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li>
                     <a href="../views/portafolio.html">
                         <img src="../assets/ico_journal-bookmark-fill.svg">
-                        <span class="d-sm-none">Portafolio</span>
+                        <span>Portafolio</span>
                     </a>
                 </li>
                 <li>
                     <a href="../views/servicios.html">
-                        
                         <img src="../assets/ico_card-checklist.svg">
-                        <span class="d-sm-none">Servicios</span>
+                        <span>Servicios</span>
                     </a>
                 </li>
                 <li>
                     <a href="../views/experiencias.html">
-                         <img src="../assets/ico_arrow-through-heart.svg">
-                        <span class="d-sm-none">Experiencias</span>
+                        <img src="../assets/ico_arrow-through-heart.svg">
+                        <span>Experiencias</span>
                     </a>
                 </li>
                 <li>
                     <a href="../views/contacto.html">
                         <img src="../assets/ico_envelope-paper.svg">
-                        <span class="d-sm-none">Contacto</span>
+                        <span>Contacto</span>
                     </a>
                 </li>
-            </ul>
-        </div>
-    </nav>
-    <!--header-->
-    <header>
-        <div class="contImgHeader">
-            <div class="position-absolute pt-10">
-                <h1 class="styky">Servicios</h1>
-                <p class="text-light"> 
-                    10 merge dis
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid p-0 sectiones">
+        <div class="row justify-content-center">
+            <div class="col-12 hImgPages p-0">
+                <img src="../assets/servicios.png" alt="imagen contacto" class="img-fluid w-100 ">
+            </div>
+            <div class="col-sm-12 col-md-8 text-center position-absolute pt-10">
+                <h1 class="w-100">SERVICIOS</h1>
+                <p class="text-light ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 </p>
             </div>
-        <img src="../assets/servicios.png">
         </div>
-        
-    </header>
+    </section>
+
+
+
     <!--main-->
     <main>
         <!--Carrusel de portafolio-->
         <section class="p-2 ">
-            <div class="dFlex space-between">
+            <div class="d-flex space-between">
                 <img src="../assets/pagMuestra-01.png" alt="pagMuestra-01" class="h-100"/>
                 <img src="../assets/pagMuestra-02.png" alt="pagMuestra-02" class="h-100"/>
                 <img src="../assets/pagMuestra-03.png" alt="pagMuestra-03" class="h-100"/>
@@ -151,63 +165,68 @@
             </article>
         </section>
         <!--Contacto-->
-        <section class="text-center pt-10 pb-10  ">
+        <section class="text-center pt-10 pb-10" style="margin-bottom: 200px;">
             <a href="../views/contacto.html" class="btnContacta">Contáctanos</a>
                 <div class="contHrs">
                     <h1 class="textHora text-center">
                         Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar
+                        Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar| Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar
                     </h1>
                 </div>
         </section>
     </main>
 
-    <!--footer-->
-    <footer>
-        <div class="grid grid-template-col-row">
-        <!--Mail-->
-        <section class="p-1">
-            <div>
-                <h3>¿Preguntas sobre negocios?</h3>
-                
-                <p class="c-orange">mail@mail.com</p>
-            </div>
-        </section>
-        <!--Telefono-->
-        <section class="p-1">
-            <div>
-                <h3>¿Algo más personal?</h3>
-                
-                <p class="c-orange">00 0000 0000</p>
-            </div>
-        </section>
-        <!--redesSociales-->
-        <section class="p-1">
-            <div>
-                <h3>Tenemos mucho que compartir</h3>
-            </div>
-                <div class="dFlex">
-                    <div class="p5">
-                        <a href="#">
-                            <img src="../assets/ico_facebook.svg" alt="Facebook" class="h-32">
-                        </a>
-                    </div>
-                    <div class="p5">
-                        <a href="#">
-                            <img src="../assets/ico_linkedin.svg" alt="Linkedin" class="h-32">
-                        </a>
-                    </div>
-                    <div class="p5">
-                        <a href="#">
-                            <img src="../assets/ico_youtube.svg" alt="Youtube" class="h-32">
-                        </a>
-                    </div>
-                </div>
-        </section>
+   
+ <!--footer-->
+ <footer class="container mt-4">
+    <div class="row border-top border-secondary mt-4">
+    <!--Mail-->
+    <section class="p-2 col-xs-12 col-md-4">
+        <div>
+            <h4>¿Preguntas sobre negocios?</h4>
+            
+            <p class="c-orange">mail@mail.com</p>
         </div>
-        <section class="text-center" >
-            <span class="">2022 - Todos los Derechos Reservados</span>  
-        </section>
-    </footer>
+    </section>
+    <!--Telefono-->
+    <section class="p-2 col-xs-12 col-md-4">
+        <div>
+            <h4>¿Algo más personal?</h4>
+            
+            <p class="c-orange">00 0000 0000</p>
+        </div>
+    </section>
+    <!--redesSociales-->
+    <section class="p-2 col-xs-12 col-md-4">
+        <div>
+            <h4>Tenemos mucho que compartir</h4>
+        </div>
+            <div class="d-flex">
+                <div class="p-2">
+                    <a href="#">
+                        <img src="../assets/ico_facebook.svg" alt="Facebook">
+                    </a>
+                </div>
+                <div class="p-2">
+                    <a href="#">
+                        <img src="../assets/ico_linkedin.svg" alt="Linkedin">
+                    </a>
+                </div>
+                <div class="p-2">
+                    <a href="#">
+                        <img src="../assets/ico_youtube.svg" alt="Youtube">
+                    </a>
+                </div>
+            </div>
+    </section>
+    </div>
+    <section class="text-center mt-2 border-secondary border-top p-4" >
+        <span class="text-secondary ">2022 - Todos los Derechos Reservados</span>  
+    </section>
+</footer>
+
+<!--JsBootstrap-->
+<script src="../bootstrap/js/bootstrap.min.js"></script>
     
 </body>
 </html>

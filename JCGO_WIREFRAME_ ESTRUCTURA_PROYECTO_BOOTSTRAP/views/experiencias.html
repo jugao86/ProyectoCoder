@@ -4,135 +4,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+     <!--Bootstrap-->
+     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    
     <!--Styles-->
     <link rel="stylesheet" href="../css/style.css">
     <title>gJuls | Experiencias</title>
 </head>
 <body>
-    <!--nav-->
-    <nav>
-        <div class="w-25 brand">
-            <a href="../index.html">
-                <img src="../assets/logoGjuls-ico.svg" alt="Logo gJuls  - Diseño que inspira"/>
-                <img src="../assets/logoGjuls-txt.svg" alt="Logo gJuls  - Diseño que inspira"/>
+     <!--header-->
+     <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <!--brand-->
+            <a href="../index.html" class="d-flex p-2">
+                <img src="../assets/logoGjuls-ico.svg" alt="Logo  - Diseño"/>
+                <img src="../assets/logoGjuls-txt.svg" alt="gJuls  - Que inspira"/>
             </a>
-        </div>
-        <div class="w-75 nav stiky">
-            <ul>
+                <!--btnMenu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!--<span class="navbar-toggler-icon"></span>-->
+                <img src="../bootstrap/icons/list.svg" fill="#fff" />
+            </button>
+            <!--MenuCollapse-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li>
                     <a href="../views/portafolio.html">
                         <img src="../assets/ico_journal-bookmark-fill.svg">
-                        <span class="d-sm-none">Portafolio</span>
+                        <span>Portafolio</span>
                     </a>
                 </li>
                 <li>
                     <a href="../views/servicios.html">
-                        
                         <img src="../assets/ico_card-checklist.svg">
-                        <span class="d-sm-none">Servicios</span>
+                        <span>Servicios</span>
                     </a>
                 </li>
                 <li>
                     <a href="../views/experiencias.html">
-                         <img src="../assets/ico_arrow-through-heart.svg">
-                        <span class="d-sm-none">Experiencias</span>
+                        <img src="../assets/ico_arrow-through-heart.svg">
+                        <span>Experiencias</span>
                     </a>
                 </li>
                 <li>
                     <a href="../views/contacto.html">
                         <img src="../assets/ico_envelope-paper.svg">
-                        <span class="d-sm-none">Contacto</span>
+                        <span>Contacto</span>
                     </a>
                 </li>
-            </ul>
-        </div>
-    </nav>
-    <!--header-->
-    <header>
-        <div class="contImgHeader">
-            <div class="position-absolute pt-10">
-                <h1>Nuestras experiencias</h1>
-                <p class="text-light">
-                Cambio realizado en la rama DIS
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid p-0 sectiones">
+        <div class="row justify-content-center">
+            <div class="col-12 hImgPages p-0">
+                <img src="../assets/experiencia.jpg" alt="imagen contacto" class="img-fluid w-100 ">
+            </div>
+            <div class="col-sm-12 col-md-8 text-center position-absolute pt-10">
+                <h1 class="w-100">NUESTRAS Experiencias</h1>
+                <p class="text-light ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 </p>
             </div>
-            <img src="../assets/experiencia.png" alt="imagen contacto">  
         </div>
-    </header>
+    </section>
+
     <!--main-->
-    <main class="px-5">
+    <main>
         <!--iconosClientes-->
-        <section>
-            <article class=" gridMarcas">
-                <div class="hoverMarcas"><img src="../assets/logosClientes-01.png" alt="Logo Cliente Uno" class="h-100 p-4"></div>
-                <div  class="hoverMarcas"><img src="../assets/logosClientes-02.png" alt="Logo Cliente dos" class="h-100 p-4"></div>
-                <div  class="hoverMarcas"><img src="../assets/logosClientes-03.png" alt="Logo Cliente tres" class="h-100 p-4"></div>
-                <div  class="hoverMarcas"><img src="../assets/logosClientes-04.png" alt="Logo Cliente cuatro" class="h-100 p-4"></div>
-                <div  class="hoverMarcas"><img src="../assets/logosClientes-05.png" alt="Logo Cliente cinco" class="h-100 p-4"></div>
-                <div  class="hoverMarcas"><img src="../assets/logosClientes-06.png" alt="Logo Cliente seis" class="h-100 p-4"></div>
-                <div  class="hoverMarcas"><img src="../assets/logosClientes-07.png" alt="Logo Cliente siete" class="h-100 p-4"></div>
-                <div  class="hoverMarcas"><img src="../assets/logosClientes-08.png" alt="Logo Cliente ocho" class="h-100 p-4"></div>
+        <section class="container d-none d-md-block">
+            <article class="row">
+                <div class="hoverMarcas col-12 col-md-4 p-0"><img src="../assets/logosClientes-01.png" alt="Logo Cliente Uno" class="h-100 p-4"></div>
+                <div  class="hoverMarcas col-12 col-md-4 p-0"><img src="../assets/logosClientes-02.png" alt="Logo Cliente dos" class="h-100 p-4"></div>
+                <div  class="hoverMarcas col-12 col-md-4 p-0"><img src="../assets/logosClientes-03.png" alt="Logo Cliente tres" class="h-100 p-4"></div>
+                <div  class="hoverMarcas col-12 col-md-4 p-0"><img src="../assets/logosClientes-04.png" alt="Logo Cliente cuatro" class="h-100 p-4"></div>
+                <div  class="hoverMarcas col-12 col-md-4 p-0"><img src="../assets/logosClientes-05.png" alt="Logo Cliente cinco" class="h-100 p-4"></div>
+                <div  class="hoverMarcas col-12 col-md-4 p-0"><img src="../assets/logosClientes-06.png" alt="Logo Cliente seis" class="h-100 p-4"></div>
+                <div  class="hoverMarcas col-12 col-md-4 p-0"><img src="../assets/logosClientes-07.png" alt="Logo Cliente siete" class="h-100 p-4"></div>
+                <div  class="hoverMarcas col-12 col-md-4 p-0"><img src="../assets/logosClientes-08.png" alt="Logo Cliente ocho" class="h-100 p-4"></div>
+            </article>
+
+           
+        </section>
+
+        <section class="container d-md-none">
+            <article class="row">
+                <div id="carouselExampleMarcas" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div  class="hoverMarcas col-12 p-0">
+                                <img src="../assets/logosClientes-01.png" alt="Logo Cliente ocho" class="h-100 p-4">
+                            </div>
+                          </div><div class="carousel-item">
+                            <div  class="hoverMarcas col-12 p-0"><img src="../assets/logosClientes-02.png" alt="Logo Cliente ocho" class="h-100 p-4"></div>
+                          </div><div class="carousel-item">
+                            <div  class="hoverMarcas col-12 p-0"><img src="../assets/logosClientes-03.png" alt="Logo Cliente ocho" class="h-100 p-4"></div>
+                          </div><div class="carousel-item">
+                            <div  class="hoverMarcas col-12 p-0"><img src="../assets/logosClientes-04.png" alt="Logo Cliente ocho" class="h-100 p-4"></div>
+                          </div><div class="carousel-item">
+                            <div  class="hoverMarcas col-12 p-0"><img src="../assets/logosClientes-05.png" alt="Logo Cliente ocho" class="h-100 p-4"></div>
+                          </div><div class="carousel-item">
+                            <div  class="hoverMarcas col-12 p-0"><img src="../assets/logosClientes-06.png" alt="Logo Cliente ocho" class="h-100 p-4"></div>
+                          </div><div class="carousel-item">
+                            <div  class="hoverMarcas col-12 p-0"><img src="../assets/logosClientes-07.png" alt="Logo Cliente ocho" class="h-100 p-4"></div>
+                          </div><div class="carousel-item">
+                            <div  class="hoverMarcas col-12 p-0"><img src="../assets/logosClientes-08.png" alt="Logo Cliente ocho" class="h-100 p-4"></div>
+                          </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleMarcas" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleMarcas" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </article>
         </section>
-        <!---->
-        <section class="text-center pt-10 pb-10">
+         <!--Contacto-->
+         <section class="text-center pt-10 pb-10" style="margin-bottom: 200px;">
             <a href="../views/contacto.html" class="btnContacta">Contáctanos</a>
                 <div class="contHrs">
                     <h1 class="textHora text-center">
                         Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar
+                        Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar| Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar | Hora de platicar
                     </h1>
                 </div>
         </section>
     </main>
 
-     <!--footer-->
-     <footer>
-        <div class="grid grid-template-col-row">
+       
+    <!--footer-->
+    <footer class="container mt-4">
+        <div class="row border-top border-secondary mt-4">
         <!--Mail-->
-        <section class="p-1">
+        <section class="p-2 col-xs-12 col-md-4">
             <div>
-                <h3>¿Preguntas sobre negocios?</h3>
+                <h4>¿Preguntas sobre negocios?</h4>
                 
                 <p class="c-orange">mail@mail.com</p>
             </div>
         </section>
         <!--Telefono-->
-        <section class="p-1">
+        <section class="p-2 col-xs-12 col-md-4">
             <div>
-                <h3>¿Algo más personal?</h3>
+                <h4>¿Algo más personal?</h4>
                 
                 <p class="c-orange">00 0000 0000</p>
             </div>
         </section>
         <!--redesSociales-->
-        <section class="p-1">
+        <section class="p-2 col-xs-12 col-md-4">
             <div>
-                <h3>Tenemos mucho que compartir</h3>
+                <h4>Tenemos mucho que compartir</h4>
             </div>
-                <div class="dFlex">
-                    <div class="p5">
+                <div class="d-flex">
+                    <div class="p-2">
                         <a href="#">
-                            <img src="../assets/ico_facebook.svg" alt="Facebook" class="h-32">
+                            <img src="../assets/ico_facebook.svg" alt="Facebook">
                         </a>
                     </div>
-                    <div class="p5">
+                    <div class="p-2">
                         <a href="#">
-                            <img src="../assets/ico_linkedin.svg" alt="Linkedin" class="h-32">
+                            <img src="../assets/ico_linkedin.svg" alt="Linkedin">
                         </a>
                     </div>
-                    <div class="p5">
+                    <div class="p-2">
                         <a href="#">
-                            <img src="../assets/ico_youtube.svg" alt="Youtube" class="h-32">
+                            <img src="../assets/ico_youtube.svg" alt="Youtube">
                         </a>
                     </div>
                 </div>
         </section>
         </div>
-        <section class="text-center" >
-            <span class="">2022 - Todos los Derechos Reservados</span>  
+        <section class="text-center mt-2 border-secondary border-top p-4" >
+            <span class="text-secondary ">2022 - Todos los Derechos Reservados</span>  
         </section>
     </footer>
+    
+    <!--JsBootstrap-->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
     
 </body>
 </html>
